@@ -1,11 +1,9 @@
-def function():
-    b=int(input("enter a number:"))
-    c=b+5
-    c=c-7
-    c=c*85
-    c=c/32
-    return c
-D=function()
-print (D)
+A=int(input("Enter English number"))
+B=int(input("Enter Tamil number"))
+C=int(input("Enter Bio-zology number"))
+D=int(input("Enter Social number"))
+E=int(input("Enter Bio-botony number"))
+if (A>=50)and(B>=50)and(C>=50)and(D>=50)and(E>=50):
+    print("Pass")
 
 
